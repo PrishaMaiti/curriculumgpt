@@ -1,6 +1,6 @@
 # MBAGPT: Chatting with Multiple Data Sources
 
-MBAGPT is a chat application that leverages the power of GPT-3.5-turbo to provide conversational responses with access to multiple data sources. It allows users to ask questions and receive answers from different knowledge bases (vectorDBs), such as Alex Hormozi, Warren Buffett and Richard Branson as well as answer general queries with the ChatGPT API as a fallback.
+CurriculumGPT is an LLM application designed to aid incoming college students in preparing for their intended major. The system has dynamic access to knowledge bases of different universities' curriculums, and refers to data by the particular universities that have a reputable program for the student's intended major, which the user states in the prompt. On the off chance there are no universities with a reputable program for a student's major, or for any unrelated queries, the system refers to the ChatGPT knowledge base as a fallback.
 
 ## Features
 
