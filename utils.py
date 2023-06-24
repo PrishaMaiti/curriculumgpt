@@ -7,7 +7,7 @@ import requests
 import tiktoken
 import streamlit as st
 
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+# openai.api_key = st.secrets["OPENAI_API_KEY"]
 api_key_pinecone = st.secrets["PINECONE_API_KEY"]
 pinecone_environment = st.secrets["PINECONE_ENVIRONMENT"]
 pinecone_endpoint = st.secrets["PINECONE_ENDPOINT"]
