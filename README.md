@@ -1,16 +1,17 @@
-# MBAGPT: Chatting with Multiple Data Sources
+# CurriculumGPT: The Ultimate Source of Academic Planning For Prospective College Students
 
-CurriculumGPT is an LLM application designed to aid incoming college students in preparing for their intended major. The system has dynamic access to knowledge bases of different universities' curriculums, and refers to data by the particular universities that have a reputable program for the student's intended major, which the user states in the prompt. On the off chance there are no universities with a reputable program for a student's major, or for any unrelated queries, the system refers to the ChatGPT knowledge base as a fallback.
+CurriculumGPT is an LLM application designed to aid high school students in preparing for their intended major, prior to attending their college or university. The system has dynamic access to knowledge bases of different universities' curriculums, and refers to data by the particular universities that have a reputable program for the student's intended major, which the user states in the prompt. On the off chance there are no universities in the database with a reputable program for a student's major, or for any unrelated queries, the system refers to the ChatGPT knowledge base as a fallback.
 
 ## Features
 
 - Chat interface for interacting with the chatbot powered by GPT-3.5-turbo.
-- Integration with Hormozi, Buffett and Branson databases for retrieving relevant documents.
+- Integration with the databases of curriculums from UPenn Wharton for business majors and MIT for engineering majors (these select universities and majors are only temporary, the app's knowledge bases will be expanded in the near future).
 - Semantic search functionality to provide informative snippets from the databases.
 - Intent classification to route user queries to the appropriate database.
 - HTML templates for displaying chat history and messages.
 - Persistence of embeddings using the Chroma vector store.
 - OpenAI API key integration for authentication.
+- NOTE: This repository was forked from Liam Ottley's MBAGPT repository. This repository is a modified version of his code.
 
 ## Installation
 
